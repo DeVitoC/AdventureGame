@@ -1,5 +1,5 @@
 //
-//  Warrior.swift
+//  Mage.swift
 //  AdventureGame
 //
 //  Created by Christopher Devito on 6/9/20.
@@ -8,13 +8,13 @@
 
 import Foundation
 
-class Warrior: Player {
+class Mage: Player {
     override init(name: String, currentRoom: Room) {
         super.init(name: name, currentRoom: currentRoom)
         self.equippedArmor = [:]
-        self.strength = 8
-        self.wisdom = 0
-        self.maxHealth = 10
+        self.strength = 0
+        self.wisdom = 8
+        self.maxHealth = 8
         self.health = maxHealth
     }
 }

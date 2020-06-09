@@ -1,5 +1,5 @@
 //
-//  Warrior.swift
+//  Paladin.swift
 //  AdventureGame
 //
 //  Created by Christopher Devito on 6/9/20.
@@ -7,13 +7,12 @@
 //
 
 import Foundation
-
-class Warrior: Player {
+class Paladin: Player {
     override init(name: String, currentRoom: Room) {
         super.init(name: name, currentRoom: currentRoom)
         self.equippedArmor = [:]
-        self.strength = 8
-        self.wisdom = 0
+        self.strength = 6
+        self.wisdom = 6
         self.maxHealth = 10
         self.health = maxHealth
     }

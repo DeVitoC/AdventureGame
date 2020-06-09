@@ -24,6 +24,9 @@
 		E27CAD09248FF32F00E5DAAB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD08248FF32F00E5DAAB /* Room.swift */; };
 		E27CAD0B248FF6BA00E5DAAB /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD0A248FF6BA00E5DAAB /* Warrior.swift */; };
 		E27CAD0D248FF7C500E5DAAB /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD0C248FF7C500E5DAAB /* Armor.swift */; };
+		E27CAD0F248FFC6E00E5DAAB /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD0E248FFC6E00E5DAAB /* Mage.swift */; };
+		E27CAD11248FFC9D00E5DAAB /* Paladin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD10248FFC9D00E5DAAB /* Paladin.swift */; };
+		E27CAD13248FFCCD00E5DAAB /* Thief.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD12248FFCCD00E5DAAB /* Thief.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		E27CAD08248FF32F00E5DAAB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		E27CAD0A248FF6BA00E5DAAB /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
 		E27CAD0C248FF7C500E5DAAB /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		E27CAD0E248FFC6E00E5DAAB /* Mage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mage.swift; sourceTree = "<group>"; };
+		E27CAD10248FFC9D00E5DAAB /* Paladin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paladin.swift; sourceTree = "<group>"; };
+		E27CAD12248FFCCD00E5DAAB /* Thief.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thief.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +204,9 @@
 			children = (
 				E27CACFC248FF01700E5DAAB /* Player.swift */,
 				E27CAD0A248FF6BA00E5DAAB /* Warrior.swift */,
+				E27CAD0E248FFC6E00E5DAAB /* Mage.swift */,
+				E27CAD10248FFC9D00E5DAAB /* Paladin.swift */,
+				E27CAD12248FFCCD00E5DAAB /* Thief.swift */,
 			);
 			path = "Player Models";
 			sourceTree = "<group>";
@@ -355,7 +364,10 @@
 				E27CAD0B248FF6BA00E5DAAB /* Warrior.swift in Sources */,
 				E27CAD0D248FF7C500E5DAAB /* Armor.swift in Sources */,
 				E27CAD05248FF0FB00E5DAAB /* ItemController.swift in Sources */,
+				E27CAD11248FFC9D00E5DAAB /* Paladin.swift in Sources */,
+				E27CAD0F248FFC6E00E5DAAB /* Mage.swift in Sources */,
 				E27CACC5248FEEFA00E5DAAB /* AppDelegate.swift in Sources */,
+				E27CAD13248FFCCD00E5DAAB /* Thief.swift in Sources */,
 				E27CAD09248FF32F00E5DAAB /* Room.swift in Sources */,
 				E27CACFD248FF01700E5DAAB /* Player.swift in Sources */,
 				E27CAD07248FF11600E5DAAB /* MonsterController.swift in Sources */,
