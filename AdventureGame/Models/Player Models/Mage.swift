@@ -13,7 +13,7 @@ class Mage: Player {
         super.init(name: name, currentRoom: currentRoom)
         self.equippedArmor = [:]
         self.strength = 0
-        self.wisdom = 8
+        self.wisdom = 9
         self.maxHealth = 8
         self.health = maxHealth
     }

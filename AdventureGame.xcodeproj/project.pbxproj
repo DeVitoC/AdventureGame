@@ -27,6 +27,11 @@
 		E27CAD0F248FFC6E00E5DAAB /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD0E248FFC6E00E5DAAB /* Mage.swift */; };
 		E27CAD11248FFC9D00E5DAAB /* Paladin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD10248FFC9D00E5DAAB /* Paladin.swift */; };
 		E27CAD13248FFCCD00E5DAAB /* Thief.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD12248FFCCD00E5DAAB /* Thief.swift */; };
+		E27CAD152490014800E5DAAB /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD142490014800E5DAAB /* GameController.swift */; };
+		E27CAD18249004D800E5DAAB /* Lightsource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD17249004D800E5DAAB /* Lightsource.swift */; };
+		E27CAD1A2490067100E5DAAB /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD192490067100E5DAAB /* Lamp.swift */; };
+		E27CAD1C2490067E00E5DAAB /* Torch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD1B2490067E00E5DAAB /* Torch.swift */; };
+		E27CAD1E2490082500E5DAAB /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CAD1D2490082500E5DAAB /* ModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,11 @@
 		E27CAD0E248FFC6E00E5DAAB /* Mage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mage.swift; sourceTree = "<group>"; };
 		E27CAD10248FFC9D00E5DAAB /* Paladin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paladin.swift; sourceTree = "<group>"; };
 		E27CAD12248FFCCD00E5DAAB /* Thief.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thief.swift; sourceTree = "<group>"; };
+		E27CAD142490014800E5DAAB /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		E27CAD17249004D800E5DAAB /* Lightsource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightsource.swift; sourceTree = "<group>"; };
+		E27CAD192490067100E5DAAB /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
+		E27CAD1B2490067E00E5DAAB /* Torch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torch.swift; sourceTree = "<group>"; };
+		E27CAD1D2490082500E5DAAB /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,7 @@
 			children = (
 				E27CACDB248FEEFD00E5DAAB /* AdventureGameTests.swift */,
 				E27CACDD248FEEFD00E5DAAB /* Info.plist */,
+				E27CAD1D2490082500E5DAAB /* ModelTests.swift */,
 			);
 			path = AdventureGameTests;
 			sourceTree = "<group>";
@@ -167,6 +178,7 @@
 				E27CAD02248FF0E200E5DAAB /* PlayerController.swift */,
 				E27CAD04248FF0FB00E5DAAB /* ItemController.swift */,
 				E27CAD06248FF11600E5DAAB /* MonsterController.swift */,
+				E27CAD142490014800E5DAAB /* GameController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,6 +226,7 @@
 		E27CACFA248FEFD800E5DAAB /* Item Models */ = {
 			isa = PBXGroup;
 			children = (
+				E27CAD16249004C000E5DAAB /* Lightsources */,
 				E27CACFE248FF03600E5DAAB /* Item.swift */,
 				E27CAD0C248FF7C500E5DAAB /* Armor.swift */,
 			);
@@ -226,6 +239,16 @@
 				E27CAD00248FF09700E5DAAB /* Monster.swift */,
 			);
 			path = "Monster Models";
+			sourceTree = "<group>";
+		};
+		E27CAD16249004C000E5DAAB /* Lightsources */ = {
+			isa = PBXGroup;
+			children = (
+				E27CAD17249004D800E5DAAB /* Lightsource.swift */,
+				E27CAD192490067100E5DAAB /* Lamp.swift */,
+				E27CAD1B2490067E00E5DAAB /* Torch.swift */,
+			);
+			path = Lightsources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +384,11 @@
 			files = (
 				E27CACFF248FF03600E5DAAB /* Item.swift in Sources */,
 				E27CACC9248FEEFA00E5DAAB /* ViewController.swift in Sources */,
+				E27CAD18249004D800E5DAAB /* Lightsource.swift in Sources */,
 				E27CAD0B248FF6BA00E5DAAB /* Warrior.swift in Sources */,
 				E27CAD0D248FF7C500E5DAAB /* Armor.swift in Sources */,
+				E27CAD1A2490067100E5DAAB /* Lamp.swift in Sources */,
+				E27CAD1C2490067E00E5DAAB /* Torch.swift in Sources */,
 				E27CAD05248FF0FB00E5DAAB /* ItemController.swift in Sources */,
 				E27CAD11248FFC9D00E5DAAB /* Paladin.swift in Sources */,
 				E27CAD0F248FFC6E00E5DAAB /* Mage.swift in Sources */,
@@ -372,6 +398,7 @@
 				E27CACFD248FF01700E5DAAB /* Player.swift in Sources */,
 				E27CAD07248FF11600E5DAAB /* MonsterController.swift in Sources */,
 				E27CAD03248FF0E200E5DAAB /* PlayerController.swift in Sources */,
+				E27CAD152490014800E5DAAB /* GameController.swift in Sources */,
 				E27CAD01248FF09700E5DAAB /* Monster.swift in Sources */,
 				E27CACC7248FEEFA00E5DAAB /* SceneDelegate.swift in Sources */,
 			);
@@ -382,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27CACDC248FEEFD00E5DAAB /* AdventureGameTests.swift in Sources */,
+				E27CAD1E2490082500E5DAAB /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
